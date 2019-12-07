@@ -10,30 +10,58 @@ body {
 }
 
 nav {
-    border: 1px solid black;
     display: flex;
-    justify-content: space-evenly;
+    padding: 2%;   
+}
+
+.links {
+    display: flex;
+ }
+
+.logo {
+    width: 20%;
+}
+
+.links a {
+    width: 80%;
+    text-decoration: none;
+    color: grey;
 }
 
 header {
     display: flex;
+    align-items: center;
+    text-align:center;
+    padding: 5%;
 }
 
 .header-right {
     width: 50%;
-    border: 1px solid black;
+}
+
+button {
+    width: 150px;
+    
+}
+
+.header-right-items {
+    display: flex;
+    flex-direction: column;  
 }
 
 .header-left {
     width: 50%;
-    border: 1px solid black;
 }
 
 .first-paragraph {
     display: flex;
+    padding: 2%;
+    border-top: 1px solid black;
 }
 
 .third-paragraph {
     display: flex;
+    padding: 2%;
+    border-bottom: 1px solid black;
 }
 
