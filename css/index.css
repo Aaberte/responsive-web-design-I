@@ -1,3 +1,39 @@
+
+
+
+
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+body {
+    width:100%;
+    margin: 0 auto;
+}
+
+nav {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header {
+    display: flex;
+}
+
+.header-right {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.header-left {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.first-paragraph {
+    display: flex;
+}
+
+.third-paragraph {
+    display: flex;
+}
 
