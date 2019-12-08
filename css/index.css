@@ -89,6 +89,10 @@ h1 {
     object-fit: fill;
 }
 
+#contactAddress {
+    line-height: 0;
+}
+
 footer {
     text-align: center;
     padding: 2%;
