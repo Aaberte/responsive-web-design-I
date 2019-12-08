@@ -53,6 +53,7 @@ button {
     flex-direction: column;
     text-align: center;  
     align-items: center;
+    padding-bottom: 10%;
 }
 
 .header-left {
@@ -61,7 +62,7 @@ button {
 
 h1 {
     text-transform: uppercase;
-    font-style: italic; 
+    font-weight: bold; 
 }
 
 .first-paragraph {
@@ -74,5 +75,10 @@ h1 {
     display: flex;
     padding: 2%;
     border-bottom: 1px solid black;
+}
+
+.second-paragraph img {
+    width: 100%;
+    object-fit: fill;
 }
 
