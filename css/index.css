@@ -5,7 +5,7 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 body {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -67,13 +67,20 @@ h1 {
 
 .first-paragraph {
     display: flex;
-    padding: 2%;
     border-top: 1px solid black;
+    justify-content: space-between;
+}
+
+.first-paragraph .features {
+    width: 48%;
+}
+
+.first-paragraph .about {
+    width: 48%;
 }
 
 .third-paragraph {
     display: flex;
-    padding: 2%;
     border-bottom: 1px solid black;
 }
 
