@@ -89,3 +89,7 @@ h1 {
     object-fit: fill;
 }
 
+footer {
+    text-align: center;
+    padding: 2%;
+}
