@@ -5,7 +5,7 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 body {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@ nav {
 .links {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
  }
 
@@ -45,13 +45,14 @@ header {
 }
 
 button {
-    width: 150px;
-    
+    width: 150px;    
 }
 
 .header-right-items {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    text-align: center;  
+    align-items: center;
 }
 
 .header-left {
@@ -59,7 +60,8 @@ button {
 }
 
 h1 {
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    font-style: italic; 
 }
 
 .first-paragraph {
