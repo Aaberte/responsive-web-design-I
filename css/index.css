@@ -1,3 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+body {
+    width: 80%;
+    margin: 0 auto;
+}
 
+nav {
+    padding-bottom: 2%;   
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+.logo {
+    width: 50%;
+    height: 10vh;
+}
+
+.links a {
+    text-decoration: none;
+    color: grey;
+    width: 50%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    text-align:center;
+    padding: 7% 0%;
+}
+
+.header-right {
+    width: 50%;
+}
+
+button {
+    width: 150px;    
+}
+
+.header-right-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.header-right-items p {
+    font-size: 400%;
+}
+
+.header-left {
+    width: 50%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+.first-paragraph {
+    display: flex;
+    border-top: 1px solid black;
+    justify-content: space-between;
+    padding: 2% 0%;
+}
+
+.first-paragraph .features {
+    width: 48%;
+}
+
+.first-paragraph .about {
+    width: 48%;
+}
+
+.third-paragraph {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 3% 0%;
+}
+
+.second-paragraph img {
+    width: 100%;
+    object-fit: fill;
+    padding: 2% 0%;
+}
+
+#contactAddress {
+    padding: 2% 0%;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact {
+    padding: 5% 0%;
+}
+
+#contactEmail {
+    padding-top: 2%;
+}
+
+/* 800px media break */
+
+@media (max-width: 800px) {
+
+    nav {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo {
+        text-align: center; 
+    }
+
+    .links {
+        padding-top: 3%;
+    }
+
+    .header-left {
+        display: none;
+    }
+
+    .header-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+
+      .links {
+        flex-direction: column;
+        
+    }
+
+    .links a {
+ 
+        height: 10vh;
+        width:100%;
+        border-top: 1px solid grey;
+        text-align: center;
+        padding-top: 4%
+        
+        
+    }
+
+    #contact {
+        border-bottom: 1px solid grey;
+    }
+
+    .first-paragraph {
+        flex-direction: column;        
+        
+    }
+
+    .first-paragraph .features, .first-paragraph .about {
+        width: 100%;
+        padding: 8% 0%;
+        
+    }
+
+    .first-paragraph .line-spacing p {      
+        padding: 2%;
+    }
+
+    .third-paragraph {
+        flex-direction: column;
+    }
+
+    .third-paragraph .services, .third-paragraph .product, .third-paragraph .vision {
+        width: 100%;
+        padding: 8% 0%
+    }
+
+    .second-paragraph img {
+        padding: 0%;
+    }
+
+
+
+}
