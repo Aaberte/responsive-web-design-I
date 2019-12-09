@@ -211,13 +211,40 @@ footer {
     }
 
     .links a {
-
-    
+ 
         height: 5vh;
         padding: 5%;
         width:100%;
         border-top: 1px solid grey;
         
+    }
+
+    .first-paragraph {
+        flex-direction: column;        
+        
+    }
+
+    .first-paragraph .features, .first-paragraph .about {
+        width: 100%;
+        padding: 8% 0%;
+        
+    }
+
+    .first-paragraph .line-spacing p {      
+        padding: 2%;
+    }
+
+    .third-paragraph {
+        flex-direction: column;
+    }
+
+    .third-paragraph .services, .third-paragraph .product, .third-paragraph .vision {
+        width: 100%;
+        padding: 8% 0%
+    }
+
+    .second-paragraph img {
+        padding: 0%;
     }
 
 
