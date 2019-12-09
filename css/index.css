@@ -59,9 +59,6 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 15px;
 }
 
-
-
-
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 body {
@@ -114,6 +111,10 @@ button {
     text-align: center;  
     align-items: center;
     padding-bottom: 10%;
+}
+
+.header-right-items p {
+    font-size: 400%;
 }
 
 .header-left {
