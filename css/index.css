@@ -176,17 +176,17 @@ footer {
 @media (max-width: 800px) {
 
     body {
-        background-color: pink;
+        
     }
+
     nav {
-        border: 1px solid black;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .logo {
-        border: 1px solid blue;
         text-align: center; 
     }
 
@@ -198,14 +198,10 @@ footer {
         display: none;
     }
 
-    .header-right-items {
-        border: 1px solid black;
-        text-align: center;
-    
-    
+    .header-right {
+        width: 100%;
     }
-
-
+    
 
 
 }
