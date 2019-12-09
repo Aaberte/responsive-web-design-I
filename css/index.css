@@ -201,22 +201,24 @@ footer {
 
 @media (max-width: 500px) {
 
-    body {
-        background-color: pink;
-    }
-
-    .links {
+      .links {
         flex-direction: column;
         
     }
 
     .links a {
  
-        height: 5vh;
-        padding: 5%;
+        height: 10vh;
         width:100%;
         border-top: 1px solid grey;
+        text-align: center;
+        padding-top: 4%
         
+        
+    }
+
+    #contact {
+        border-bottom: 1px solid grey;
     }
 
     .first-paragraph {
