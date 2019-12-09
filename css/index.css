@@ -154,10 +154,17 @@ h1 {
 }
 
 #contactAddress {
-    line-height: 0;
+    padding: 2% 0%;
 }
 
 footer {
     text-align: center;
-    padding: 2%;
+}
+
+.contact {
+    padding: 5% 0%;
+}
+
+#contactEmail {
+    padding-top: 2%;
 }
