@@ -175,10 +175,6 @@ footer {
 
 @media (max-width: 800px) {
 
-    body {
-        
-    }
-
     nav {
         flex-direction: column-reverse;
         justify-content: center;
@@ -201,7 +197,29 @@ footer {
     .header-right {
         width: 100%;
     }
+}
+
+@media (max-width: 500px) {
+
+    body {
+        background-color: pink;
+    }
+
+    .links {
+        flex-direction: column;
+        
+    }
+
+    .links a {
+
     
+        height: 5vh;
+        padding: 5%;
+        width:100%;
+        border-top: 1px solid grey;
+        
+    }
+
 
 
 }
