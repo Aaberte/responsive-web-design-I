@@ -94,7 +94,7 @@ header {
     display: flex;
     align-items: center;
     text-align:center;
-    padding: 2%;
+    padding: 7% 0%;
 }
 
 .header-right {
@@ -130,6 +130,7 @@ h1 {
     display: flex;
     border-top: 1px solid black;
     justify-content: space-between;
+    padding: 2% 0%;
 }
 
 .first-paragraph .features {
@@ -143,11 +144,13 @@ h1 {
 .third-paragraph {
     display: flex;
     border-bottom: 1px solid black;
+    padding: 3% 0%;
 }
 
 .second-paragraph img {
     width: 100%;
     object-fit: fill;
+    padding: 2% 0%;
 }
 
 #contactAddress {
