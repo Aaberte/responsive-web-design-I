@@ -171,3 +171,41 @@ footer {
     padding-top: 2%;
 }
 
+/* 800px media break */
+
+@media (max-width: 800px) {
+
+    body {
+        background-color: pink;
+    }
+    nav {
+        border: 1px solid black;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        border: 1px solid blue;
+        text-align: center; 
+    }
+
+    .links {
+        padding-top: 3%;
+    }
+
+    .header-left {
+        display: none;
+    }
+
+    .header-right-items {
+        border: 1px solid black;
+        text-align: center;
+    
+    
+    }
+
+
+
+
+}
